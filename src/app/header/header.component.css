@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #143556;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #80858a;
+}
+
+.nav-link {
+  color: #adb5bd;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #7d8082;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.bg-dark {
+  background-color: hsl(212, 26%, 14%) !important;
+}
