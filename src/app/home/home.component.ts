@@ -56,4 +56,8 @@ export class HomeComponent implements OnInit {
       setTimeout(() => this.type(), speed);
     }
   }
+  openPDF() {
+    const pdfUrl = "../../assets/CV_Pradeep Kaliyawansha.pdf";
+    window.open(pdfUrl, "_blank");
+  }
 }

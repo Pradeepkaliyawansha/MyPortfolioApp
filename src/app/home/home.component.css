@@ -52,6 +52,10 @@
   color: #1eacc5;
 }
 
+.button {
+  margin-left: 10px;
+}
+
 .home-block {
   text-align: justify;
 }
