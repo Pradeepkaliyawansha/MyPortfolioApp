@@ -16,24 +16,46 @@ export class PortfolioComponent {
   projects: Card[] = [
     {
       id: 1,
-      name: "The Casino API",
+      name: "Automated Attendant System ",
       summary:
-        "This is a Python-based REST API using FastAPI and PostgreSQL for managing casino transactions and player operations. The project uses Pydantic, SQLAlchemy, Psycopg2. It also has e2e, integration and unit tests - all developed with Pytest. The deployment utilizes Dockerfiles and Docker Compose.",
-      description:
-        "This project is a REST API designed to simulate services for casino users. The main goal was to create a backend system that manages player information, balances, and transactions in a virtual casino environment. The API provides various endpoints to manage players, balances, and transactions. These include creating, retrieving, updating, and deleting players; retrieving player balances; creating new bets; registering wins; rolling back transactions; and retrieving the transaction history of specific players. Additional endpoints are available for managing individual transactions. The API was developed using Python and the FastAPI framework, chosen for its speed and modern features. PostgreSQL was used as the relational database to ensure data integrity and reliability. The project includes end-to-end (e2e), integration, and unit tests to ensure the robustness and quality of the code. Pytest was the testing framework used for this purpose. Docker Compose was utilized to orchestrate two containerized services: the casino API (localhost:3001) and the PostgreSQL database (localhost:5433). This setup ensures easy deployment and consistency across different environments. The API is documented using Swagger, available at localhost:3001/docs. The project is organized into models, schemas, routes, services, repositories, and exceptions to ensure clean, modular, and maintainable code. It includes commit patterns, dependency management with Poetry, and follows best practices for API development and testing.",
-      projectLink: "https://github.com/barbaracalderon/casino-backend",
+        "Python based desktop application for recording attendance using face recognition and generate daily and monthly reports.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/Automated_Attendance_System",
+      tags: [Tag.PYTHON, Tag.PIP, Tag.PANDAS, Tag.OPENCV, Tag.TKINTER],
+    },
+    {
+      id: 1,
+      name: "Food Ordering Web",
+      summary:
+        "Website development for a food cafe allowing the users to order food items with features such as add to cart, customize menu items and online payment. This was a group project where I contributed in the development of the cart option and payment gateway.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/food-Odering-web-PHP-Project",
       tags: [
-        Tag.PYTHON,
-        Tag.PYTEST,
-        Tag.FASTAPI,
-        Tag.PYDANTIC,
-        Tag.POSTGRESQL,
-        Tag.SQLITE,
-        Tag.SQLALCHEMY,
-        Tag.DOCKER,
-        Tag.DOCKERCOMPOSE,
+        Tag.HTML5,
+        Tag.CSS3,
+        Tag.JAVASCRIPT,
+        Tag.BOOTSTRAP,
+        Tag.JQUARY,
+        Tag.PHP,
+        Tag.MYSQL,
       ],
-      pictures: ["../../assets/casino01.png", "../../assets/casino02.png"],
+    },
+    {
+      id: 1,
+      name: "Online Parking Booking System",
+      summary:
+        "Parking booking system for vehicle owners and Parking owners access different features. This is my 3rd Year undergraduate mini project.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/Online_Parking_Booking_System",
+      tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.Mongo],
+    },
+    {
+      id: 1,
+      name: "My Portfolio Web App",
+      summary:
+        "This portfolio app showcases my skills, projects, and experience in software engineering. Built with a responsive and user-friendly design, it highlights my technical expertise, including proficiency in web development and project management. ",
+      projectLink: "https://github.com/Pradeepkaliyawansha/MyPortfolioApp",
+      tags: [Tag.ANGULAR, Tag.BOOTSTRAP],
     },
   ];
 

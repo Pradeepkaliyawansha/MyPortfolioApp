@@ -2,7 +2,12 @@
   <div class="card-body">
     <h5 class="card-title">{{ card.name }}</h5>
     <p class="card-text">{{ card.summary }}</p>
-    <li class="git-link">github</li>
+    <li class="git-link">
+      github:
+      <a [href]="card.projectLink" target="_blank" rel="noopener noreferrer">{{
+        card.name
+      }}</a>
+    </li>
   </div>
   <div class="card-footer">
     <div class="d-flex flex-wrap justify-content-center">
