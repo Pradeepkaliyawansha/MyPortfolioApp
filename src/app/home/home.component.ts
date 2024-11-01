@@ -57,7 +57,8 @@ export class HomeComponent implements OnInit {
     }
   }
   openPDF() {
-    const pdfUrl = "../../assets/CV_Pradeep Kaliyawansha.pdf";
+    const pdfUrl =
+      "../../assets/Associate Software Engineer_CV_Pradeep KaliyawanshaPradeep.pdf";
     window.open(pdfUrl, "_blank");
   }
 }

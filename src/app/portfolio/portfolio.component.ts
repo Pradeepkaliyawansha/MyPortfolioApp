@@ -47,7 +47,7 @@ export class PortfolioComponent {
         "Parking booking system for vehicle owners and Parking owners access different features. This is my 3rd Year undergraduate mini project.",
       projectLink:
         "https://github.com/Pradeepkaliyawansha/Online_Parking_Booking_System",
-      tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.Mongo],
+      tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.MONGO],
     },
     {
       id: 1,
@@ -56,6 +56,14 @@ export class PortfolioComponent {
         "This portfolio app showcases my skills, projects, and experience in software engineering. Built with a responsive and user-friendly design, it highlights my technical expertise, including proficiency in web development and project management. ",
       projectLink: "https://github.com/Pradeepkaliyawansha/MyPortfolioApp",
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP],
+    },
+    {
+      id: 1,
+      name: "Music Recommendation System by using the OCEAN Model to Predict User Preferences",
+      summary:
+        "This is my final year research project. We create connection between music genres and the personality traits based on the OCEAN model. We create a system to music genre classification using music features of the songs and recommend music according to music preferences of different personalities.",
+      projectLink: "",
+      tags: [Tag.PYTHON, Tag.KMEANS, Tag.RANDOM, Tag.EUCLIDEAN],
     },
   ];
 

@@ -22,7 +22,10 @@ export class Tag {
   static readonly REACT = new Tag("ReactJs", "#355158");
   static readonly EXPRESS = new Tag("ExpressJS", "#355158");
   static readonly NODE = new Tag("NodeJs", "#355158");
-  static readonly Mongo = new Tag("MongoDb", "#355158");
+  static readonly MONGO = new Tag("MongoDb", "#355158");
+  static readonly KMEANS = new Tag("K-Means", "#355158");
+  static readonly EUCLIDEAN = new Tag("Euclidean Distence", "#355158");
+  static readonly RANDOM = new Tag("Random forest", "#355158");
 
   private constructor(
     private readonly key: string,
