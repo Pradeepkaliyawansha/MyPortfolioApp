@@ -10,6 +10,6 @@ import { Title } from "@angular/platform-browser";
 })
 export class ContactComponent {
   constructor(private titleService: Title) {
-    this.titleService.setTitle("PR | Contact");
+    this.titleService.setTitle("Contact");
   }
 }

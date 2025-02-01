@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   delayBetweenPhrases: number = 2000;
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle("PR | Home");
+    this.titleService.setTitle("Home");
   }
 
   ngOnInit(): void {

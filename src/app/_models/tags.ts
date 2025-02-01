@@ -26,6 +26,7 @@ export class Tag {
   static readonly KMEANS = new Tag("K-Means", "#355158");
   static readonly EUCLIDEAN = new Tag("Euclidean Distence", "#355158");
   static readonly RANDOM = new Tag("Random forest", "#355158");
+  static readonly TAILWIND = new Tag("Tailwind CSS", "#192129");
 
   private constructor(
     private readonly key: string,
