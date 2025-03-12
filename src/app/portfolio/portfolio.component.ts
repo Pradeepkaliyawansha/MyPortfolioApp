@@ -16,21 +16,21 @@ export class PortfolioComponent {
   projects: Card[] = [
     {
       id: 1,
-      name: "Automated Attendant System ",
-      summary:
-        "Python based desktop application for recording attendance using face recognition and generate daily and monthly reports.",
-      projectLink:
-        "https://github.com/Pradeepkaliyawansha/Automated_Attendance_System",
-      tags: [Tag.PYTHON, Tag.PIP, Tag.PANDAS, Tag.OPENCV, Tag.TKINTER],
-    },
-    {
-      id: 2,
       name: "Online Parking Booking System",
       summary:
         "Parking booking system for vehicle owners and Parking owners access different features. This is my 3rd Year undergraduate mini project.",
       projectLink:
         "https://github.com/Pradeepkaliyawansha/Online_Parking_Booking_System",
       tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.MONGO],
+    },
+    {
+      id: 2,
+      name: "Automated Attendant System ",
+      summary:
+        "Python based desktop application for recording attendance using face recognition and generate daily and monthly reports.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/Automated_Attendance_System",
+      tags: [Tag.PYTHON, Tag.PIP, Tag.PANDAS, Tag.OPENCV, Tag.TKINTER],
     },
     {
       id: 3,
@@ -81,6 +81,15 @@ export class PortfolioComponent {
         Tag.PHP,
         Tag.MYSQL,
       ],
+    },
+    {
+      id: 8,
+      name: "Email Template Generator AI-Powered",
+      summary:
+        "The Email Template Builder is an innovative web application that simplifies email marketing by combining artificial intelligence with intuitive design tools. Users can instantly generate professional email templates by simply describing their needs in natural language, letting the AI handle the creative heavy lifting, or they can build custom designs from scratch using the streamlined editor. The platform features a clean, responsive interface that works seamlessly across devices, with separate tabs for AI-assisted creation and manual design. With automatic template saving and easy access to previous designs, marketers and business professionals can create compelling email campaigns in minutes rather than hours, eliminating the need for specialized design skills or lengthy template development processes. This tool empowers users to produce consistently polished email communications that maintain brand integrity while significantly reducing production time.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/AI-powered-email-generator",
+      tags: [Tag.NEXT, Tag.TYPESCRIPT, Tag.TAILWIND],
     },
   ];
 

@@ -6,7 +6,7 @@ export class Tag {
   static readonly PANDAS = new Tag("Pandas", "#355158");
   static readonly RESTAPI = new Tag("Rest API", "#355158");
   static readonly POSTMAN = new Tag("Postman", "#355158");
-  static readonly TYPESCRIPT = new Tag("Typescript", "#192129");
+  static readonly TYPESCRIPT = new Tag("Typescript", "#4a6a77");
   static readonly JAVASCRIPT = new Tag("Javascript", "#4a6a77");
   static readonly HTML5 = new Tag("HTML5", "#192129");
   static readonly CSS3 = new Tag("CSS3", "#192129");
@@ -27,6 +27,7 @@ export class Tag {
   static readonly EUCLIDEAN = new Tag("Euclidean Distence", "#355158");
   static readonly RANDOM = new Tag("Random forest", "#355158");
   static readonly TAILWIND = new Tag("Tailwind CSS", "#192129");
+  static readonly NEXT = new Tag("NEXT", "#4a6a77");
 
   private constructor(
     private readonly key: string,
