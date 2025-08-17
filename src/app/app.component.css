@@ -1,0 +1,53 @@
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  background-color: #27333f;
+  color: white;
+  border: 2px solid #b0caf063;
+  width: 100%;
+  max-width: 350px;
+  min-height: 300px;
+}
+
+.card-body {
+  margin: 5px 0px;
+  text-align: center;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #8c98a3;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  margin: 25px 0px;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  flex-grow: 1;
+}
+
+.git-link {
+  text-align: left;
+  margin-top: auto;
+}
+
+.card-footer {
+  padding: 15px 20px;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .card-layout {
+    max-width: 100%;
+    min-width: 280px;
+  }
+}
