@@ -57,6 +57,11 @@
             "production": {
               "buildTarget": "angular-portfolio-app:build:production"
             },
+            "options": {
+              "disableHostCheck": true,
+              "port": 4200,
+              "host": "0.0.0.0"
+            },
             "development": {
               "buildTarget": "angular-portfolio-app:build:development"
             }
