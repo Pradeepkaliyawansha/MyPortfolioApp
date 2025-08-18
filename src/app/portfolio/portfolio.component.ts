@@ -41,7 +41,7 @@ export class PortfolioComponent {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP],
     },
     {
-      id: 1,
+      id: 4,
       name: "Exam Management System",
       summary:
         "This Exam Management System is a full-stack web application built with React.js, Node.js, Express, and MongoDB that streamlines online examination processes for educational institutions. The system features role-based access control with separate dashboards for administrators and students - admins can create and manage exams with multiple-choice quizzes, monitor student performance, and view analytics, while students can take timed exams, receive real-time notifications, and download PDF certificates of their results. Key technical features include JWT authentication, responsive Tailwind CSS design, automated grading, secure API endpoints, and comprehensive error handling, making it an ideal solution for schools and training organizations looking to digitize their examination workflow with features like live notifications, detailed performance tracking, and mobile-friendly interfaces.",
@@ -50,7 +50,7 @@ export class PortfolioComponent {
       tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.MONGO, Tag.TAILWIND],
     },
     {
-      id: 4,
+      id: 5,
       name: "Music Recommendation System by using the OCEAN Model to Predict User Preferences",
       summary:
         "This is my final year research project. We create connection between music genres and the personality traits based on the OCEAN model. We create a system to music genre classification using music features of the songs and recommend music according to music preferences of different personalities.",
@@ -58,7 +58,7 @@ export class PortfolioComponent {
       tags: [Tag.PYTHON, Tag.KMEANS, Tag.RANDOM, Tag.EUCLIDEAN],
     },
     {
-      id: 5,
+      id: 6,
       name: "Currency Convert App",
       summary:
         "React Based currency convert app enables to users convert currency to another currency since today. Using exchange convert API for the get convert rates. We can get all currency rates selecting dates in past as well. ",
@@ -66,7 +66,7 @@ export class PortfolioComponent {
       tags: [Tag.REACT, Tag.NODE, Tag.EXPRESS, Tag.TAILWIND],
     },
     {
-      id: 6,
+      id: 7,
       name: "Dynamic Widgets Dashboard",
       summary:
         "React Based frontend customizable data visualizing dashboard with dynamic widgets enables to resize, edit add and delete widgets with theme selection.",
@@ -75,7 +75,7 @@ export class PortfolioComponent {
       tags: [Tag.REACT, Tag.TAILWIND],
     },
     {
-      id: 7,
+      id: 8,
       name: "Food Ordering Web",
       summary:
         "Website development for a food cafe allowing the users to order food items with features such as add to cart, customize menu items and online payment. This was a group project where I contributed in the development of the cart option and payment gateway.",
@@ -92,13 +92,21 @@ export class PortfolioComponent {
       ],
     },
     {
-      id: 8,
+      id: 9,
       name: "Email Template Generator AI-Powered",
       summary:
         "The Email Template Builder is an innovative web application that simplifies email marketing by combining artificial intelligence with intuitive design tools. Users can instantly generate professional email templates by simply describing their needs in natural language, letting the AI handle the creative heavy lifting, or they can build custom designs from scratch using the streamlined editor. The platform features a clean, responsive interface that works seamlessly across devices, with separate tabs for AI-assisted creation and manual design. With automatic template saving and easy access to previous designs, marketers and business professionals can create compelling email campaigns in minutes rather than hours, eliminating the need for specialized design skills or lengthy template development processes. This tool empowers users to produce consistently polished email communications that maintain brand integrity while significantly reducing production time.",
       projectLink:
         "https://github.com/Pradeepkaliyawansha/AI-powered-email-generator",
       tags: [Tag.NEXT, Tag.TYPESCRIPT, Tag.TAILWIND],
+    },
+    {
+      id: 10,
+      name: "E-commerce web app",
+      summary:
+        "This E-Shop project is a comprehensive full-stack e-commerce application that showcases modern web development practices. It features a clean separation between buyer and seller experiences, with a robust product management system, shopping cart functionality, and order tracking. The application uses contemporary technologies like React with Context API for state management, Tailwind CSS for responsive styling with dark mode support, and a Node.js backend with MongoDB for data persistence.",
+      projectLink: "https://github.com/Pradeepkaliyawansha/e-commerce",
+      tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.MONGO, Tag.TAILWIND],
     },
   ];
 
