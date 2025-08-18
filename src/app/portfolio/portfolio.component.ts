@@ -41,6 +41,15 @@ export class PortfolioComponent {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP],
     },
     {
+      id: 1,
+      name: "Exam Management System",
+      summary:
+        "This Exam Management System is a full-stack web application built with React.js, Node.js, Express, and MongoDB that streamlines online examination processes for educational institutions. The system features role-based access control with separate dashboards for administrators and students - admins can create and manage exams with multiple-choice quizzes, monitor student performance, and view analytics, while students can take timed exams, receive real-time notifications, and download PDF certificates of their results. Key technical features include JWT authentication, responsive Tailwind CSS design, automated grading, secure API endpoints, and comprehensive error handling, making it an ideal solution for schools and training organizations looking to digitize their examination workflow with features like live notifications, detailed performance tracking, and mobile-friendly interfaces.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/Exam-management-system",
+      tags: [Tag.REACT, Tag.EXPRESS, Tag.NODE, Tag.MONGO, Tag.TAILWIND],
+    },
+    {
       id: 4,
       name: "Music Recommendation System by using the OCEAN Model to Predict User Preferences",
       summary:
