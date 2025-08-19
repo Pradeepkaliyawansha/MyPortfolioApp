@@ -1,26 +1,115 @@
-<div class="row align-items-center default-container">
-  <div class="col-lg-10">
-    <div class="text-left">
-      <h1 class="home-title">
-        Innovative Solutions, Seamless Digital Experiences.
-      </h1>
-      <h2 class="home-author">
-        Pradeep Kaliyawansha, <span id="dynamic-text">{{ dynamicText }}</span>
-      </h2>
-      <blockquote class="home-block">
-        I am passionate about turning ideas into reality through clean code and
-        cutting-edge technology. With a focus on efficiency, scalability, and
-        user-centric design, I create web applications that not only solve
-        problems but also deliver intuitive and delightful user experiences.
-        Aiming to play a responsible and dedicated role in the project's success
-        through smart working and resourcefulness.
-      </blockquote>
-      <button>
-        <a routerLink="/portfolio"> > Check Portfolio </a>
-      </button>
-      <button class="button" (click)="openPDF()">
-        <a>> Check Resume</a>
-      </button>
+<!-- Enhanced Responsive Home Component HTML -->
+<div class="container-fluid">
+  <div class="row justify-content-center align-items-center default-container">
+    <div class="col-12 col-lg-10 col-xl-12">
+      <div class="home-container">
+        <div class="text-left-container">
+          <div class="text-left">
+            <h1 class="home-title">
+              Innovative Solutions,<br class="d-none d-md-block" />
+              Seamless Digital Experiences.
+            </h1>
+
+            <h2 class="home-author">
+              Pradeep Kaliyawansha,<br class="d-block d-sm-none" />
+              <span id="dynamic-text">{{ dynamicText }}</span>
+            </h2>
+
+            <div class="home-block">
+              <p>
+                I am passionate about turning ideas into reality through clean
+                code and cutting-edge technology. With a focus on efficiency,
+                scalability, and user-centric design, I create web applications
+                that not only solve problems but also deliver intuitive and
+                delightful user experiences.
+              </p>
+              <p class="d-none d-md-block">
+                Aiming to play a responsible and dedicated role in the project's
+                success through smart working and resourcefulness.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="home-button" type="button">
+                <a routerLink="/portfolio" aria-label="View my portfolio">
+                  <i
+                    class="fas fa-briefcase me-2 d-none d-sm-inline"
+                    aria-hidden="true"
+                  ></i>
+                  Check Portfolio
+                </a>
+              </button>
+
+              <button class="home-button" type="button" (click)="openPDF()">
+                <a href="javascript:void(0)" aria-label="Download my resume">
+                  <i
+                    class="fas fa-file-pdf me-2 d-none d-sm-inline"
+                    aria-hidden="true"
+                  ></i>
+                  Check Resume
+                </a>
+              </button>
+            </div>
+
+            <!-- Quick stats for larger screens -->
+            <div class="d-none d-lg-block mt-4">
+              <div class="row">
+                <div class="col-4 text-center">
+                  <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Projects</span>
+                  </div>
+                </div>
+                <div class="col-4 text-center">
+                  <div class="stat-item">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years Experience</span>
+                  </div>
+                </div>
+                <div class="col-4 text-center">
+                  <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Technologies</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<style>
+  /* Additional responsive stats styling */
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1eacc5;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+    color: #8c98a3;
+    margin-top: 0.5rem;
+  }
+
+  @media (min-width: 1200px) {
+    .stat-number {
+      font-size: 2.5rem;
+    }
+
+    .stat-label {
+      font-size: 1rem;
+    }
+  }
+</style>
