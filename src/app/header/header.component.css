@@ -12,6 +12,50 @@
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: #80858a;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #adb5bd;
+}
+
+/* Remove default underline animation from navbar-brand */
+.navbar-brand::after {
+  display: none;
+}
+
+/* Apply underline animation only to brand text */
+.brand-text {
+  position: relative;
+}
+
+.brand-text::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #00ff00;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-brand:hover .brand-text::after {
+  width: 100%;
+  left: 0;
+  background: #1eacc5;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-text {
+  font-size: 1.25rem;
 }
 
 .nav-link {
@@ -29,4 +73,32 @@
 
 .bg-dark {
   background-color: hsl(212, 26%, 14%) !important;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .brand-text {
+    display: none;
+  }
+
+  .logo-img {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    flex-shrink: 0;
+  }
+
+  .nav-pills {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .nav-link {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+  }
 }
