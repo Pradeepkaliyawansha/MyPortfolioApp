@@ -110,7 +110,7 @@ export class PortfolioComponent {
       tags: [Tag.ANGULAR, Tag.DOTNET, Tag.SQL],
     },
     {
-      id: 10,
+      id: 11,
       name: "E-commerce web app",
       summary:
         "This E-Shop project is a comprehensive full-stack e-commerce application that showcases modern web development practices. It features a clean separation between buyer and seller experiences, with a robust product management system, shopping cart functionality, and order tracking. The application uses contemporary technologies like React with Context API for state management, Tailwind CSS for responsive styling with dark mode support, and a Node.js backend with MongoDB for data persistence.",
