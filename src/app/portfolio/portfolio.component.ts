@@ -102,6 +102,15 @@ export class PortfolioComponent {
     },
     {
       id: 10,
+      name: "Smart Inventory and Sales Management System",
+      summary:
+        "A full-stack web application built with Angular (frontend), .NET (backend), and SQL Server (database) to streamline inventory tracking and sales operations. The system enables businesses to manage products, monitor stock levels, record sales transactions, generate reports, and ensure real-time data synchronization across modules. Designed for efficiency, scalability, and ease of use, it helps improve decision-making and operational control.",
+      projectLink:
+        "https://github.com/Pradeepkaliyawansha/Smart-Inventory-Sales-Management-system",
+      tags: [Tag.ANGULAR, Tag.DOTNET, Tag.SQL],
+    },
+    {
+      id: 10,
       name: "E-commerce web app",
       summary:
         "This E-Shop project is a comprehensive full-stack e-commerce application that showcases modern web development practices. It features a clean separation between buyer and seller experiences, with a robust product management system, shopping cart functionality, and order tracking. The application uses contemporary technologies like React with Context API for state management, Tailwind CSS for responsive styling with dark mode support, and a Node.js backend with MongoDB for data persistence.",

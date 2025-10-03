@@ -28,6 +28,7 @@ export class Tag {
   static readonly RANDOM = new Tag("Random forest", "#355158");
   static readonly TAILWIND = new Tag("Tailwind CSS", "#192129");
   static readonly NEXT = new Tag("NEXT", "#4a6a77");
+  static readonly DOTNET = new Tag(".NET", "#4a6a77");
 
   private constructor(
     private readonly key: string,
