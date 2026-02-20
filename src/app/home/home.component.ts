@@ -139,7 +139,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   openPDF() {
-    const pdfUrl = "../../assets/Pradeep_Kaliyawansha_CV.pdf";
+    const pdfUrl = "assets/Pradeep_Kaliyawansha_CV.pdf";
 
     // Check if mobile device
     if (this.isMobile) {
