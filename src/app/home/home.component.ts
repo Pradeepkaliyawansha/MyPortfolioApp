@@ -125,7 +125,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.isDeleting = true;
       this.typingTimeout = setTimeout(
         () => this.type(),
-        this.delayBetweenPhrases
+        this.delayBetweenPhrases,
       );
     } else if (this.isDeleting && this.currentCharIndex === 0) {
       this.isDeleting = false;
@@ -139,8 +139,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   openPDF() {
-    const pdfUrl =
-      "../../assets/Associate Software Engineer_CV_Pradeep KaliyawanshaPradeep.pdf";
+    const pdfUrl = "../../assets/Pradeep_Kaliyawansha_CV.pdf";
 
     // Check if mobile device
     if (this.isMobile) {
